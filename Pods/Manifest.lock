@@ -1,16 +1,16 @@
 PODS:
-  - AClassTest (0.1.2)
+  - AClassTest (0.1.6)
 
 DEPENDENCIES:
-  - AClassTest (= 0.1.2)
+  - AClassTest (= 0.1.6)
 
 SPEC REPOS:
   https://github.com/yuetianlu/MySpec.git:
     - AClassTest
 
 SPEC CHECKSUMS:
-  AClassTest: 0791c0aebab252c1174b531f52b8ed47d9716889
+  AClassTest: 2b73dcbadc2c0b66667ab7dd8686e2d237f8c18f
 
-PODFILE CHECKSUM: e1aef735ad6b9f8ebeb1caffda0d938283cdac6c
+PODFILE CHECKSUM: 0d346ac0b00191375eab9049b3ec567b0c9223c7
 
 COCOAPODS: 1.6.1

@@ -107,6 +107,7 @@
 				8CE40F4822D6DE2C0082599B /* Sources */,
 				8CE40F4922D6DE2C0082599B /* Frameworks */,
 				8CE40F4A22D6DE2C0082599B /* Resources */,
+				62AD137B3906EF6E2F4A757E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +164,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		62AD137B3906EF6E2F4A757E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrivatePodsExample/Pods-PrivatePodsExample-resources.sh",
+				"${PODS_ROOT}/AClassTest/AClassTest/Assets/Images.xcassets",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AClassTest/AClassTest.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AClassTest.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrivatePodsExample/Pods-PrivatePodsExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EB99E180D7A47093259D2295 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
